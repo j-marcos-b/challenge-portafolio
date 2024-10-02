@@ -371,9 +371,9 @@ footer {
     }
 
     .principal__imagen img {
-        max-width: 100%; 
-        min-width: auto; 
-    } 
+        max-width: 100%;
+        min-width: auto;
+    }
 
     .principal__texto {
         transform: scale(80%);
@@ -413,8 +413,8 @@ footer {
         top: 0;
         right: 0;
         padding: 0 10px 0 0;
-        margin: 30px 40px 0 0 ;
-        box-shadow: 0 0 0 100vmax  rgba(0, 0, 0, 0.5);
+        margin: 30px 40px 0 0;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
         background-color: rgba(255, 255, 255, 0.95)
     }
 
@@ -448,7 +448,7 @@ footer {
     .cerrar-menu:hover {
         background-color: var(--color-fondo-primario);
     }
-    
+
     .cerrar-menu::after {
         background-color: var(--color-fondo-primario);
         color: var(--color-fondo-secundario);
@@ -465,7 +465,7 @@ footer {
     }
 
     .principal {
-        flex-direction: column; 
+        flex-direction: column;
         margin: 50px 0px 0 0px;
         transform: scale(85%);
         gap: 40px;
@@ -496,11 +496,11 @@ footer {
         min-width: 30vw;
         max-height: 150px;
         padding-top: 30px;
-     }
+    }
 
     .skills__tarjetas div p,
     .hobbies__tarjetas div p {
-         padding: 5px;
+        padding: 5px;
     }
 
     .hobbies {
@@ -530,28 +530,33 @@ footer {
 
     .carousel-control-prev,
     .carousel-control-next {
-        display: none;
+        position: relative;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        display: inline-block;
     }
 
-   .material-symbols-outlined {
-        display: block;
-   }
+    .carousel-control-prev {
+        left: 34%;
+    }
 
-   .contacto {
+    .carousel-control-next {
+        left: 50%;
+    }
+
+    .material-symbols-outlined {
+        display: block;
+    }
+
+    .contacto {
         margin: 0 0 20px 0;
         padding: 20px 10px 20px 60px;
         transform: scale(80%);
-   }
+    }
 
-   .contacto img {
+    .contacto img {
         display: none;
-   }
-
-   .flecha {
-    font-size: 4rem;
-    display: flex;
-    justify-content: center;
-    color: var(--color-secundario);
-}
-
+    }
 }
