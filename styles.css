@@ -519,6 +519,10 @@ footer {
         margin: 0 auto;
     }
 
+    .experiencia__botones .boton {
+        padding: 5px 5px;
+    }
+
     .formacion h2 {
         margin-bottom: 0 0 20px 0;
     }
