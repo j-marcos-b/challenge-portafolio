@@ -305,7 +305,6 @@ header a:hover::after,
 }
 
 .experiencia__botones .boton {
-    margin-right: 10px;
     padding: 5px 15px;
     background-color: var(--color-secundario);
     color: white;
