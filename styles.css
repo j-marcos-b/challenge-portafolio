@@ -1,6 +1,6 @@
 :root {
-    --color-primario: #112D4E;
-    --color-secundario: #3F72AF;
+    --color-primario: #392f64;
+    --color-secundario: #0096CA;
     --color-fondo-primario: #F9F7F7;
     --color-fondo-secundario: #DBE2EF;
     --color-texto: #5b6f8a;
@@ -130,6 +130,11 @@ header a:hover::after,
 .principal__imagen {
     margin: 0 50px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    width: 50%;
+}
+
+.principal__imagen img {
+    width: 100%;
 }
 
 .principal__titulo {
@@ -387,6 +392,11 @@ footer {
         display: none;
     }
 
+    .sobre {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -483,6 +493,10 @@ footer {
     .principal__redes {
         justify-content: center;
         gap: 12px;
+    }
+
+    .principal__imagen {
+        width: 75%;
     }
 
     .sobre {
